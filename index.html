@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Encriptador</title>
 </head>
 <body>
+
     <header>
         <img class="logoAlura"src="/imagens/Logo Alura.png"alt="Logo da Alura">
     </header>
-    <section>
-        <textarea class="text-area"cols="41"raws="4"></textarea>
-
-    </section>
-
-    <section>
-        <textarea class="mensagem"cols="20"raws="10"></textarea>
-    </section>
-
     
+    <main>
+        <section>
+            <textarea class="text-area"cols="41"raws="4"placeholder="Digite se texto"></textarea>
+                <div class="Informacao">
+                    <h6>Apenas letras minusculas e sem acento</h6>
+                </div>
+                <div class="botoes">
+                    <button class="btn-encripitar">Criptografar</button>
+                    <button class="btn-desencripitar">Descriptografar</button>
+                </div>
+        </section>
+    
+        <section>
+            <textarea class="mensagem"cols="20"raws="10"></textarea>
+            <button class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
 </body>
 </html>
