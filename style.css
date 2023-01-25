@@ -1,4 +1,4 @@
-#{
+*{
     background-color: #E5E5E5;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -6,7 +6,6 @@
     line-height: 150%;
 }
 .logoAlura{
-
     margin-left: 10px;
     padding-top: 10px;
     width: 2%;
@@ -21,7 +20,7 @@ main{
     border: none;
     color: #0A3871;
     margin-top: 90px;
-    text-transform: capitalize;
+    text-transform: lowercase;
 }
 
 ::placeholder{color: #0A3871;}
@@ -32,7 +31,7 @@ main{
 .mensagem{
     background: white;
     background-image: url(/imagens/Boneco.png);
-    background-repeat: none;
+    background-repeat: no repeat;
     border: none;
     border-radius: 24px;
     color: #0A3871;
@@ -48,5 +47,5 @@ main{
 .botoes{
     display: flex;
     margin-top: 18px;
-    
+
 }
